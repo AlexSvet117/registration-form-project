@@ -1,0 +1,45 @@
+.box{
+    font-family: 'Poppins', sans-serif;
+    size: 70%;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    gap: 5px;
+}
+
+.type1{
+    color: 
+
+}
+
+.type1{
+
+}
+
+.type1{
+
+}
+
+/* Styling:
+
+Reset margins and padding at the beginning and apply box-sizing: border-box to simplify layout management.
+Use CSS3 to style the cards with:
+Rounded corners
+Shadows
+Centered layout
+! Custom Font: Add a font from Google Fonts to enhance typography.
+Each heading should have a unique color.
+Each button should have a distinct color that corresponds to the car class:
+Orange for Economy
+Purple for Luxury
+Green for Family
+Add icons or small graphical elements for added visual appeal.
+
+
+📐 Card Structure:
+
+Heading: Large and bold, with unique colors for each car class.
+Paragraph: Brief description of each class.
+Button Link: Styled button for viewing more cars, with unique colors. */
