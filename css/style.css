@@ -1,26 +1,123 @@
-.box{
+/* Reset margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
     font-family: 'Poppins', sans-serif;
-    size: 70%;
-    border: 2px solid black;
+    background-image: url(../assets/pattern.png);
+    backface-visibility: hidden;
+    background-repeat: none;
+    
+  }
+
+.box{
+    width: 800px;
+    /* justify-content: center; */
+    margin: 20px auto;
+    /* size: 4%; */
+    border: none;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    gap: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgb(0,0,0, 0.5);
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* flex-direction: column; */  
+}
+.car{
+    margin-bottom: 20px;
+}
+
+.text{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.button{
+    text-decoration: none;
+    display: inline-block;
+    /* margin-bottom: 20px; */
+    font-size: large;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+}
+
+/* Adding background image */
+.box1{
+    background-image: url(../assets/economic-car.png);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.box2{
+    background-image: url(../assets/luxury-car.png);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.box3{
+    background-image: url(../assets/family-car.png);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .type1{
-    color: 
+    color: orange;
+}
+
+.type2{
+    color: blue;
 
 }
 
-.type1{
-
+.type3{
+    color: green;
 }
 
-.type1{
-
+.button1{
+    background-color: orange;
 }
+
+.button2{
+    background-color: rgb(218, 44, 218);
+}
+
+.button3{
+    background-color: chocolate;
+}
+
+.button1:hover{
+    background-color: rgb(232, 159, 24);
+}
+
+.button2:hover{
+    background-color: rgb(192, 8, 192);
+}
+
+.button3:hover{
+    background-color: rgb(183, 84, 13);
+}
+
+.button1:active{
+    background-color: orange;
+}
+
+.button2:active{
+    background-color: rgb(218, 44, 218);
+}
+
+.button3:active{
+    background-color: chocolate;
+}
+
+
 
 /* Styling:
 
