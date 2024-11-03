@@ -4,70 +4,66 @@
     padding: 0;
     box-sizing: border-box;
   }
-
+/* Body */
 body{
     font-family: 'Poppins', sans-serif;
     background-image: url(../assets/pattern.png);
-    backface-visibility: hidden;
+    background-size: 700px;
     background-repeat: none;
     
   }
-
+/* Formatting headers */
 .box{
-    width: 800px;
-    /* justify-content: center; */
-    margin: 20px auto;
-    /* size: 4%; */
+    max-width: 800px;
+    margin: 23px auto;
     border: none;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 5px 10px 10px rgb(0,0,0, 0.5);
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* flex-direction: column; */  
 }
-.car{
-    margin-bottom: 20px;
-}
-
-.text{
-    margin-bottom: 15px;
+/* Formatting of paragraphs */
+.paragraph{
+    margin-bottom: 5px;
+    margin-top: 20px;
     font-size: 20px;
 }
-
+/* Formatting of all link buttons */
 .button{
     text-decoration: none;
     display: inline-block;
-    /* margin-bottom: 20px; */
     font-size: large;
     color: white;
     border-radius: 5px;
     border: none;
     padding: 10px 15px;
 }
+/* Formatitng of button's icons */
+.fa-solid fa-arrow-right {
+    margin-right: 10px;
+}
 
-/* Adding background image */
+/* Adding background image to all car categories */
 .box1{
-    background-image: url(../assets/economic-car.png);
+    background: white url(../assets/economic-car.png);
     background-size: 270px;
     background-repeat: no-repeat;
     background-position: right;
 }
 
 .box2{
-    background-image: url(../assets/luxury-car.png);
+    background: white url(../assets/luxury-car.png);
     background-size: 270px;
     background-repeat: no-repeat;
     background-position: right;
 }
 
 .box3{
-    background-image: url(../assets/family-car.png);
+    background: white url(../assets/family-car.png);
     background-size: 270px;
     background-repeat: no-repeat;
     background-position: right;
 }
-
+/* Adding color to header elements and button links */
 .type1{
     color: orange;
 }
@@ -116,27 +112,3 @@ body{
 .button3:active{
     background-color: chocolate;
 }
-
-
-
-/* Styling:
-
-Reset margins and padding at the beginning and apply box-sizing: border-box to simplify layout management.
-Use CSS3 to style the cards with:
-Rounded corners
-Shadows
-Centered layout
-! Custom Font: Add a font from Google Fonts to enhance typography.
-Each heading should have a unique color.
-Each button should have a distinct color that corresponds to the car class:
-Orange for Economy
-Purple for Luxury
-Green for Family
-Add icons or small graphical elements for added visual appeal.
-
-
-📐 Card Structure:
-
-Heading: Large and bold, with unique colors for each car class.
-Paragraph: Brief description of each class.
-Button Link: Styled button for viewing more cars, with unique colors. */
